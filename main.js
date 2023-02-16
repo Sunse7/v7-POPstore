@@ -11,7 +11,6 @@ function getLocalStorage() {
     if (currentPopcorn) {
         currentPopcorn.forEach(element => {
             popcornsArray.push(element);
-            console.log(popcornsArray, 'still arr?');
         });
     }
 }
@@ -48,7 +47,6 @@ function renderCardsToUI(popcorns) {
 
             buyButton.addEventListener('click', () => {   
                 popcornsArray.push(popcorn);             
-                console.log(popcornsArray, 'arr');
             });
             cartRedirect(popcornsArray);
         }
