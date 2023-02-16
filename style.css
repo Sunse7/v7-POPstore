@@ -1,17 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+:root {
+    font-family: 'Poppins';
+}
+
 body {
     background-color: #747070;
 }
 
-.card-container {}
+header {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    
+}
+
+button {
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.buy-btn {
+    margin-bottom: 1rem;
+}
+
+.cart-btn {}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
 
 .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #D9D9D9;
     margin: 1rem;
+    border-radius: 4px;
 }
 
 .card__image {
     width: 10rem;
     height: auto;
+    margin-top: 1rem;
 }
 
 .card__name {}
