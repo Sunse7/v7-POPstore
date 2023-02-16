@@ -6,6 +6,7 @@ body {
 
 .card {
     background-color: #D9D9D9;
+    margin: 1rem;
 }
 
 .card__image {
@@ -16,3 +17,5 @@ body {
 .card__name {}
 
 .card__price {}
+
+.cart-items {}
